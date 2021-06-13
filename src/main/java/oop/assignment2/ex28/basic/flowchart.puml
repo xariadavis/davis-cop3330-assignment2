@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+while (userInput < 5)
+    : read userInput;
+    : store userInput into an array;
+endwhile
+
+:return array of integers;
+:calculate the sum of all integers in the array;
+:print the output;
+
+
+@enduml
