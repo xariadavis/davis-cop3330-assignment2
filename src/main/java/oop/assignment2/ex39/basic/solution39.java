@@ -14,7 +14,7 @@ public class solution39 {
             String[] positions = {"Manager", "Software Engineer", "District Manager", "Programmer", "DBA", "Web Developer"};
             String[] separationDates = {"2016-12-31", "2016-10-05", "2015-12-19", "", "", "2015-12-18"};
 
-            EmployeeDatabase database = new EmployeeDatabase(firstNames, lastNames, positions, separationDates); // database housing all of our information
+            EmployeeDatabase database = new EmployeeDatabase(firstNames, lastNames, positions, separationDates);
 
             database.sortEmployees();
             database.printAllEmployees();
