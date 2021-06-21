@@ -107,7 +107,7 @@ class isValidTest {
     void generateOutput_veryWeak() {
 
         String actual = test.generateOutput("12345", 1);
-        String expected = "The password '12345' is a very weak password";
+        String expected = "The password '12345' is a very weak password.";
 
         assertEquals(expected, actual);
 
@@ -118,7 +118,7 @@ class isValidTest {
     void generateOutput_veryStrong() {
 
         String actual = test.generateOutput("1337g@xor!", 4);
-        String expected = "The password '1337g@xor!' is a very strong password";
+        String expected = "The password '1337g@xor!' is a very strong password.";
 
         assertEquals(expected, actual);
 
